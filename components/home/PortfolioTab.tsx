@@ -3,22 +3,24 @@
 import { useEffect, useRef } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
+import type { Swiper as SwiperType } from "swiper";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 
 export default function PortfolioTab() {
-  const logoSwiperRef = useRef<any>(null);
+  const logoSwiperRef = useRef<SwiperType | null>(null);
 
   // Function to handle video playback and slide advancement
   const playActiveSlideVideo = async () => {
     try {
       // Pause and reset all videos safely
       const videos = document.querySelectorAll("#logoAnimationSwiper video");
-      videos.forEach((v: any) => {
+      videos.forEach((v) => {
         try {
-          v.pause();
-          v.currentTime = 0;
-          v.onended = null;
+          const video = v as HTMLVideoElement;
+          video.pause();
+          video.currentTime = 0;
+          video.onended = null;
         } catch (error) {
           // Ignore errors when video is already removed from DOM
           console.warn("Video cleanup error (safe to ignore):", error);
@@ -59,7 +61,7 @@ export default function PortfolioTab() {
   };
 
   // Function to initialize swiper and set up event listeners
-  const initializeSwiper = (swiper: any) => {
+  const initializeSwiper = (swiper: SwiperType) => {
     logoSwiperRef.current = swiper;
 
     // Set up event listeners after swiper is initialized
@@ -75,11 +77,12 @@ export default function PortfolioTab() {
   const cleanupVideos = () => {
     try {
       const videos = document.querySelectorAll("#logoAnimationSwiper video");
-      videos.forEach((v: any) => {
+      videos.forEach((v) => {
         try {
-          v.pause();
-          v.currentTime = 0;
-          v.onended = null;
+          const video = v as HTMLVideoElement;
+          video.pause();
+          video.currentTime = 0;
+          video.onended = null;
         } catch (error) {
           // Ignore errors when video is already removed from DOM
           console.warn("Video cleanup error (safe to ignore):", error);

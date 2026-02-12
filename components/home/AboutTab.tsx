@@ -90,7 +90,7 @@ export default function AboutTab() {
       <div className="text-gray-300 mx-auto space-y-4 max-w-7xl">
         <h2 className="text-3xl font-semibold text-white">our story</h2>
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl">
-          We believe good design and powerful storytelling can bring a brand's essence and personality to life.
+          We believe good design and powerful storytelling can bring a brand&apos;s essence and personality to life.
         </p>
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl">
           From conception to project completion, listening is our top priority to ensure we deliver the best possible

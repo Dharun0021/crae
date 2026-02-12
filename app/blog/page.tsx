@@ -73,7 +73,7 @@ export default function BlogPage() {
 
           <p>
             In design, two powerful philosophies shape brand perception: <b>Minimalism and Maximalism</b>. The first
-            whispers with elegance, the second shouts personality. This isn't about right or wrong, it's about
+            whispers with elegance, the second shouts personality. This isn&apos;t about right or wrong, it&apos;s about
             authenticity.
           </p>
 
@@ -85,22 +85,22 @@ export default function BlogPage() {
 
           <h3 className="text-lg font-bold mt-6 mb-2">Case Study: Apple</h3>
           <p>
-            Apple's design philosophy is the gold standard of minimalism. From its packaging to its website, Apple
+            Apple&apos;s design philosophy is the gold standard of minimalism. From its packaging to its website, Apple
             builds on the mantra: <i>less is more</i>.
             <br />
-            The sleek product shots, bold whitespace, and simple typography don't just show off technology, they elevate
+            The sleek product shots, bold whitespace, and simple typography don&apos;t just show off technology, they elevate
             it to a lifestyle.
           </p>
           <p>
-            <b>Why it works:</b> Because Apple's customers value sophistication and innovation, minimalism aligns
+            <b>Why it works:</b> Because Apple&apos;s customers value sophistication and innovation, minimalism aligns
             perfectly with its brand promise.
           </p>
 
           <h3 className="text-lg font-bold mt-6 mb-2">Case Study: Muji</h3>
           <p>
-            Even without a logo, Muji's minimalist aesthetic communicates quality and simplicity.
+            Even without a logo, Muji&apos;s minimalist aesthetic communicates quality and simplicity.
             <br />
-            MUJI, the Japanese retail giant, has built an entire empire around "no-brand quality goods." From packaging
+            MUJI, the Japanese retail giant, has built an entire empire around &quot;no-brand quality goods.&quot; From packaging
             to store design, everything is stripped to its essence, neutral colors, unbranded packaging, and functional
             forms.
           </p>
@@ -108,8 +108,8 @@ export default function BlogPage() {
             <li>MUJI appeals to consumers who reject flashy logos and want authenticity.</li>
             <li>The minimalist approach communicates honesty, utility, and sustainability.</li>
             <li>
-              Its design philosophy directly reflects its name - "Mujirushi Ryohin," which means "no-brand, quality
-              goods."
+              Its design philosophy directly reflects its name - &quot;Mujirushi Ryohin,&quot; which means &quot;no-brand, quality
+              goods.&quot;
             </li>
           </ul>
           <p>
@@ -146,7 +146,7 @@ export default function BlogPage() {
           </p>
 
           <blockquote className="border-l-4 border-gray-300 pl-4 italic text-gray-700 my-4">
-            "Gucci used 23% fewer neutrals… and 95% more extravagant designs."
+            &quot;Gucci used 23% fewer neutrals… and 95% more extravagant designs.&quot;
           </blockquote>
 
           <Image
@@ -177,7 +177,7 @@ export default function BlogPage() {
             <b>Maximalism shouts</b>.<br />
             <b>The best choice?</b>
             <br />
-            The one that's intentional and true because design is storytelling with purpose.
+            The one that&apos;s intentional and true because design is storytelling with purpose.
           </p>
             </article>
           </div>

@@ -73,7 +73,7 @@ export default function ConsultationTab() {
             <span className="font-bold">BOOK</span>
             <span className="px-4 italic">your consultation</span>
           </h1>
-          <h2 className="lg:text-3xl md:text-3xl text-2xl font-semibold">let's discuss your project</h2>
+          <h2 className="lg:text-3xl md:text-3xl text-2xl font-semibold">let&apos;s discuss your project</h2>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
             Schedule a consultation to discuss your design needs and bring your vision to life.
           </p>
